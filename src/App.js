@@ -4,6 +4,7 @@ import {  useDispatch } from 'react-redux';
 import { fetchPosts } from './actions/postActions';
 import Homepage from './components/HomePage';
 import ItemDetail from './components/ItemDetail';
+import Navbar from './components/Navbar';
 // import store from './store'
 
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
   return (
   
     <div className="App">
+      <Navbar/>
       <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Homepage />} />

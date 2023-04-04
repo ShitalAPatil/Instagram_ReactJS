@@ -2,13 +2,13 @@
 
 .container {
   max-width: 1200px;
-  margin-left: 170px;
+  background-color:azure;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  /* margin: 0 -15px; */
 }
 
 .col-md-4 {
@@ -21,6 +21,7 @@
 .card {
   border: 1px solid #ddd;
   transition: box-shadow 0.3s ease-in-out;
+  border-radius: 7px;
   }
   
   .card:hover {

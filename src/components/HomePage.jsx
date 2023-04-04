@@ -15,7 +15,7 @@ const Home = () => {
  
   return (
     <div className="container">
-      <h1 className="text-center">Social Media App</h1>
+      <h1 className="text-center">Instagram</h1>
       <div className="row">
         {posts.map((post) => (
           <div className="col-md-4" key={post.id}>
